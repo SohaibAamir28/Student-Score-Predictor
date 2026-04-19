@@ -60,7 +60,7 @@ def main():
         'model__min_samples_split': [2, 5]
     }
 
-    grid_search = GridSearchCV(pipeline, param_grid, cv=5, scoring='neg_mean_squared_error', n_jobs=-1)
+    grid_search = GridSearchCV(pipeline, param_grid, cv=5, scoring='neg_mean_squared_error', n_jobs=2)
     grid_search.fit(X_train, y_train)
 
     best_pipeline = grid_search.best_estimator_

@@ -3,8 +3,8 @@
 This project is an end-to-end Machine Learning web application that predicts a student's `Math Score` based on demographic details, test preparation, and other test scores. It uses a tuned `RandomForestRegressor` and is deployed beautifully using Streamlit and custom dark-mode CSS.
 
 **Dataset Link:** [Students Performance in Exams (Kaggle)](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)  
-**GitHub Repository:** [Insert GitHub Link Here]  
-**Live Demo:** [Insert Live Streamlit URL Here]
+**GitHub Repository:** [GitHub Link](https://github.com/SohaibAamir28/Student-Score-Predictor)  
+**Live Demo:** [Live Streamlit Demo](https://student-score-predictor-app-ml.streamlit.app)
 
 ## File Overview
 
